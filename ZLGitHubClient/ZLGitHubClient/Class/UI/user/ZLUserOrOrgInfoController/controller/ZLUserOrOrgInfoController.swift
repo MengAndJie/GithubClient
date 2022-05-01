@@ -51,6 +51,7 @@ class ZLUserOrOrgInfoController: ZLBaseViewController {
         
         contentView.showProgressHUD()
         userPresenter?.loadData(firstLoad: true)
+        print("Hello World")
     }
     
     func setupUI() {
